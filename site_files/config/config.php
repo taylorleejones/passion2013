@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= '';
+$config['base_url']	= '/';
 
 /*
 |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ $config['base_url']	= '';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'index.php?';
 
 /*
 |--------------------------------------------------------------------------
@@ -44,7 +44,7 @@ $config['index_page'] = '';
 | 'ORIG_PATH_INFO'	Uses the ORIG_PATH_INFO
 |
 */
-$config['uri_protocol']	= 'AUTO';
+$config['uri_protocol']	= 'QUERY_STRING';
 
 /*
 |--------------------------------------------------------------------------
@@ -245,9 +245,9 @@ $config['encryption_key'] = '$jd9r03F9g93D0M(S';
 |
 */
 $config['sess_cookie_name']		= 'mainsess';
-$config['sess_expiration']		= 7200;
+$config['sess_expiration']		= 0;
 $config['sess_expire_on_close']	= FALSE;
-$config['sess_encrypt_cookie']	= FALSE;
+$config['sess_encrypt_cookie']	= TRUE;
 $config['sess_use_database']	= FALSE;
 $config['sess_table_name']		= 'mainsess';
 $config['sess_match_ip']		= FALSE;
