@@ -1,0 +1,551 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"each"
+			],
+			[
+				"cot",
+				"contentFirstParagraph"
+			],
+			[
+				"Bebas",
+				"BebasNeueRegular"
+			],
+			[
+				"ff",
+				"ffab09"
+			],
+			[
+				"grid",
+				"gridBoxWidth"
+			],
+			[
+				"gridSquares",
+				"gridSquaresWide"
+			],
+			[
+				"gridbox",
+				"gridBoxHeight"
+			],
+			[
+				"gridclas",
+				"gridSquareClass"
+			],
+			[
+				"gridBox",
+				"gridBoxWidth"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/Taylor/Sites/passion2013/css/main.css",
+			"settings":
+			{
+				"buffer_size": 22814,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Taylor/Sites/passion2013/site_files/views/header.php",
+			"settings":
+			{
+				"buffer_size": 2107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Taylor/Sites/passion2013/site_files/views/footer.php",
+			"settings":
+			{
+				"buffer_size": 1263,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Taylor/Sites/passion2013/js/main.js",
+		"/Users/Taylor/Sites/believe/app/controllers/utilities_controller.rb",
+		"/Users/Taylor/Sites/believe/public/less/type.less",
+		"/Users/Taylor/Sites/believe/app/controllers/omniauth_callbacks_controller.rb",
+		"/Users/Taylor/Sites/believe/public/index_old.html",
+		"/Users/Taylor/Sites/believe/app/assets/Makefile",
+		"/Users/Taylor/Sites/believe/config/initializers/devise.rb",
+		"/Users/Taylor/Sites/believe/app/assets/stylesheets/application.css",
+		"/Users/Taylor/Sites/believe/app/controllers/map_controller.rb",
+		"/Users/Taylor/Sites/believe/app/helpers/omniauth_callbacks_helper.rb",
+		"/Users/Taylor/Sites/believe/app/models/user.rb",
+		"/Users/Taylor/Sites/believe/app/controllers/application_controller.rb",
+		"/Users/Taylor/Sites/believe/app/controllers/authentications_controller.rb",
+		"/Users/Taylor/Sites/believe/public/test.json",
+		"/Users/Taylor/Sites/believe/public/messages.json",
+		"/Users/Taylor/Sites/believe/public/package.json",
+		"/Users/Taylor/Sites/believe/app/assets/javascripts/application.js",
+		"/Users/Taylor/Sites/believe/public/less/main.less",
+		"/Users/Taylor/Sites/believe/public/map-test/messages-new.json",
+		"/Users/Taylor/Sites/believe/public/map-test/less/mixins.less",
+		"/Users/Taylor/Sites/believe/public/map-test/less/buttons.less",
+		"/Users/Taylor/Sites/believe/public/map-test/test.json",
+		"/Users/Taylor/Sites/believe/public/map-test/less/bootstrap.less",
+		"/Users/Taylor/Sites/believe/public/map-test/less/variables.less",
+		"/Users/Taylor/Sites/believe/public/map-test/less/main.less",
+		"/Users/Taylor/Sites/believe/public/map-test/index.html",
+		"/Users/Taylor/Sites/believe/public/map-test/messages.json",
+		"/Users/Taylor/Sites/believe/public/map-test/map.js",
+		"/Users/Taylor/Sites/believe/public/map-test/bootstrap/js/bootstrap.js",
+		"/Users/Taylor/Sites/believe/app/assets/map.js",
+		"/Users/Taylor/Sites/believe/public/map-test/less/type.less",
+		"/Users/Taylor/Sites/believe/app/views/layouts/application.html.erb",
+		"/Users/Taylor/Sites/believe/app/assets/stylesheets/map.css.scss",
+		"/Users/Taylor/Sites/believe/app/controllers/beliefs_controller.rb",
+		"/Users/Taylor/Dropbox/Client Files/Billion - Global Church Learning Center/GCLC - CI.sublime-project",
+		"/Users/Taylor/Sites/believe/public/map-test/world.json",
+		"/Users/Taylor/Sites/believe/public/map-test/less/scaffolding.less",
+		"/Users/Taylor/Sites/believe/public/map-test/less/responsive-768px-979px.less",
+		"/Users/Taylor/Sites/believe/public/map-test/less/responsive-1200px-min.less",
+		"/Users/Taylor/Sites/believe/public/map-test/docs/scaffolding.html",
+		"/Users/Taylor/Sites/believe/public/map-test/less/code.less",
+		"/Users/Taylor/Sites/believe/public/map-test/style.css",
+		"/Users/Taylor/Sites/believe/public/map-test/bootstrap/js/bootstrap.min.js",
+		"/Users/Taylor/Sites/believe/public/map-test/js/bootstrap-typeahead.js",
+		"/Users/Taylor/Sites/believe/public/map-test/less/hero-unit.less",
+		"/Users/Taylor/Sites/believe-map/polymaps/examples/population/world.json",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/!SiteFiles/header.php",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/!SiteFiles/index-spanish.php",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/!SiteFiles/reflect-esp.php",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/!SiteFiles/favicon.ico",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/!SiteFiles/reflect.php",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/!SiteFiles/js/main.js",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/!SiteFiles/css/style.css",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/!SiteFiles/css/main.css",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/!SiteFiles/es.php",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/!SiteFiles/in.php",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/!SiteFiles/index.php",
+		"/Users/Taylor/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Taylor/Dropbox/Client Files/acts100/!SiteFiles/ACTS100-LOCAL.sublime-project",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/!SiteFiles/apple-touch-icon-57x57-precomposed.png",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/!SiteFiles/index.html",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/!SiteFiles/process_sign.php",
+		"/Users/Taylor/Dropbox/Church of God Initiatives/READ/!site_files/css/main.css",
+		"/Users/Taylor/Dropbox/Church of God Initiatives/READ/!site_files/header.php",
+		"/Users/Taylor/Dropbox/Church of God Initiatives/READ/!site_files/css/style.css",
+		"/Users/Taylor/Dropbox/Church of God Initiatives/READ/!site_files/reflect.php",
+		"/Users/Taylor/Dropbox/Church of God Initiatives/READ/!site_files/class/read.php",
+		"/Users/Taylor/Dropbox/Church of God Initiatives/READ/!site_files/index.php",
+		"/Users/Taylor/Dropbox/Church of God Initiatives/READ/!site_files/js/main.js",
+		"/Users/Taylor/Dropbox/Church of God Initiatives/READ/!site_files/es.php",
+		"/Users/Taylor/Dropbox/Church of God Initiatives/READ/!site_files/es-new.php",
+		"/Users/Taylor/Dropbox/Church of God Initiatives/READ/!site_files/es/footer.php",
+		"/Users/Taylor/Dropbox/Church of God Initiatives/READ/!site_files/es/header.php",
+		"/Users/Taylor/Dropbox/Church of God Initiatives/READ/!site_files/es/index.php",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/NEW/js/main.js",
+		"/Users/Taylor/Dropbox/Church of God Initiatives/READ/!site_files/index-spanish.php",
+		"/Users/Taylor/Dropbox/Client Files/Church of God (International)/READ Initiative/!SiteFiles/js/plugins.js",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/page-about.php",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/page-full-width.php",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/library/less/768up.less",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/Serving Orphans Worldwide.sublime-project",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/library/less/mixins.less",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/footer.php",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/page-projects.php",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/functions.php",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/page-media.php",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-config.php",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/favicon.ico",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/category-orphanages.php",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/single.php",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/header.php",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/index.php",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/page-home.php",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/archive-custom_type.php",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/single-orphanage.php",
+		"/Users/Taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/single-custom_type.php",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/page-media-old.php",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/single.php",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/sidebar.php",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/library/less/base.less",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/index.php",
+		"/Users/taylor/Dropbox/Client Files/Twin Rivers Worship Center/TWIN RIVERS - WP.sublime-project",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/page-home.php",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/footer.php",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/archive-old.php",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/archive.php",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/library/less/768up.less",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/library/less/normalize.less",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/library/js/scripts.js",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/category-orphanages.php",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/single-orphanage.php",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/page-about.php",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/page.php",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/library/less/mixins.less",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/header.php",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/functions.php",
+		"/Users/taylor/Dropbox/Client Files/Serving Orphans Worldwide/!SiteFiles/wp-content/themes/soww_theme/page-OLD.php",
+		"/Users/taylor/Dropbox/Client Files/Mount Paran Central/!SiteFiles/wp-content/themes/mountparanchurch/archive.php",
+		"/Users/taylor/Dropbox/Client Files/Mount Paran Central/!SiteFiles/wp-content/themes/mountparanchurch/search.php",
+		"/Users/taylor/Dropbox/Client Files/Mount Paran Central/!SiteFiles/wp-content/themes/mountparanchurch/footer.php",
+		"/Users/taylor/Dropbox/Client Files/Mount Paran Central/!SiteFiles/wp-content/themes/mountparanchurch/single-sermons.php",
+		"/Users/taylor/Dropbox/Client Files/Mount Paran Central/!SiteFiles/wp-content/themes/mountparanchurch/single-video-youtube.php",
+		"/Users/taylor/Dropbox/Client Files/Mount Paran Central/!SiteFiles/wp-content/themes/mountparanchurch/single-video.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/acts100/ACTS100-LOCAL.sublime-project",
+		"/Users/taylor/Dropbox/Client Files/Mount Paran Central/!SiteFiles/wp-content/themes/mountparanchurch/sidebar-page.php",
+		"/Users/taylor/Dropbox/Client Files/Mount Paran Central/!SiteFiles/wp-content/themes/mountparanchurch/js/script.js",
+		"/Users/taylor/Dropbox/Client Files/Mount Paran Central/!SiteFiles/wp-content/themes/mountparanchurch/header.php",
+		"/Users/taylor/Dropbox/Client Files/Mount Paran Central/MPC-THEME.sublime-project"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"main-bg",
+			".thumb",
+			":hover",
+			"entry",
+			".val(",
+			"reset",
+			"#user",
+			"zoom",
+			"believe.load",
+			"load",
+			"loadmessages",
+			"console.log",
+			".facebook",
+			"fade_delay",
+			"socialicofont",
+			"social",
+			"backbelief",
+			"add",
+			"believe.po",
+			"believe..po",
+			"0,0,0,0.5",
+			"0,0,0,",
+			"dialogue",
+			"dialog",
+			"dial",
+			"login",
+			"belief_city",
+			"mapiconhover",
+			"share",
+			"mapiconhover",
+			"backbelief",
+			"class=\"map-icon",
+			"mapiconhover",
+			"backbelief",
+			"login-btns",
+			"ogin-btns",
+			"back",
+			"app_id",
+			"Believe with Me",
+			"map-text-location",
+			"span class=\"map-text-location\"",
+			"map-message",
+			"map-face",
+			"affirm",
+			"map-text-location",
+			"believe.buildPopup",
+			"affirm",
+			"belief-affirm",
+			"map-face",
+			".map-message",
+			"beliefinit",
+			"positionthings",
+			"position",
+			"back",
+			"map-icon",
+			"]);",
+			".dot {",
+			"form {",
+			".zoom",
+			".city",
+			".past {",
+			"map-face",
+			"data-beliefID",
+			"console.log",
+			"map-icon",
+			"clearmap",
+			"data-beliefID",
+			"buildPopup",
+			"console.log",
+			"map-icon",
+			"console.log",
+			"console.log(face_class)",
+			"loadmessage",
+			"console.log",
+			"belief",
+			"map-entry",
+			"logo",
+			"map {",
+			"#map",
+			"/",
+			"limit",
+			"map-controls",
+			"believe.latest_id",
+			"backer.personIMG",
+			"console",
+			"backer.personIMG",
+			"console.log",
+			"buildpopup",
+			"controls",
+			"controls {",
+			"#copy",
+			"I believe in a world filled with peace and harmony.",
+			"I believe in a world filled with peace and harmony",
+			".icon.find",
+			"h1, h2, h3, h4, h5, h6",
+			".dot {",
+			"personIMG\" : \"\"",
+			"\"Taylor Lee JOnes\"",
+			"<div class=\"belief-affirmed\"></div>",
+			"belief-message",
+			"resources-right",
+			"resources-body",
+			"column-one-third",
+			"input[type=submit",
+			"resources-headline",
+			"column-one-third",
+			"resources-headline",
+			"resources-header",
+			"column-one-third",
+			"column-50",
+			"column-",
+			"resources-body",
+			"h2",
+			"resources",
+			"h3",
+			"sign the pledge",
+			"edito",
+			"eva",
+			"eve",
+			"eva",
+			"body {",
+			"console.log",
+			"console",
+			"console.log",
+			"offset_scroll",
+			"section-inner",
+			"section-iner",
+			"why-read-right"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<div class=\"staff-title\">"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Taylor/Sites/passion2013/css/main.css",
+					"settings":
+					{
+						"buffer_size": 22814,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19119,
+								19119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10095.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/Taylor/Sites/passion2013/site_files/views/header.php",
+					"settings":
+					{
+						"buffer_size": 2107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								890,
+								894
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/Taylor/Sites/passion2013/site_files/views/footer.php",
+					"settings":
+					{
+						"buffer_size": 1263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								383,
+								383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true
+}
