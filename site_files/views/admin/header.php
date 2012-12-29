@@ -9,8 +9,6 @@
         <title><?= $page_title ?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-<!-- Time: <?php echo $this->benchmark->elapsed_time(); ?> -->
-<!-- Mem: <?php echo $this->benchmark->memory_usage(); ?> -->
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="<?= base_url() ?>css/normalize.css">

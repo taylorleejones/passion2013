@@ -1,4 +1,4 @@
-<?php
+<?php if(!defined('BASEPATH')) exit(file_get_contents("404.php"));
 
 class Page extends CI_Controller {
 

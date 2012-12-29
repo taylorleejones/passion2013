@@ -1,4 +1,4 @@
-<?php
+<?php if(!defined('BASEPATH')) exit(file_get_contents("404.php"));
 
 class Admin extends CI_Controller {
 
@@ -9,33 +9,44 @@ class Admin extends CI_Controller {
 	public function __construct() {
 		parent::__construct();
 
-		/* admin construct yada yada yada */
 		$this->load->helper('form');
+		$this->load->library('session');
+
+		// check for session existence
+		$uri = $this->uri->uri_string();
+		if(str_replace("/", "", $uri) != "admin") { // if not on index
+			$creds = $this->session->userdata("admin_user");
+			if(!$creds || $creds != "access")
+				redirect(base_url("admin"));
+		}
 	}
 	
 	public function index() {
 
-/*
-		$this->load->model("Sessions");
+		$post_data = $this->input->post();
+		if(!empty($post_data)) {
+			if($post_data["uname"] == "p13_Admin_u") {
+				if($post_data["passw"] == "hjGic4m/74naqK33N9") {
+					$passed = true;
+				} else {
+					$passed = false;
+				}
+			} else {
+				$passed = false;
+			}
 
-		try {
-			$data = array(
-				"start_time" => date($this->date_format, strtotime("tomorrow")),
-				"end_time" => date($this->date_format, strtotime("next monday +8 hours")),
-				"embed_url" => "<test>",
-				"description" => "this is just a test",
-				"title" => "Oh heyyyy",
-				"create_time" => date($this->date_format, time()),
-				"visible" => 1,
-				"image" => "Just a bunch of image data..."
-			);
-			$this->Sessions->create($data);
-		} catch(Exception $e) {
-			$err = $e->getMessage();
+			if($passed) {
+				$this->session->set_userdata("admin_user","access");
+				redirect(base_url("admin/manage-sessions"));
+			} else {
+				$err = "Info is incorrect";
+			}
 		}
 
-		if(!isset($err)) echo "Inserted!";
-*/
+		if(isset($err)) $data["err"] = $err;
+		$data["page_title"] = "Protected";
+
+		$this->load->view("admin/admin_index", $data);
 
 	}
 
@@ -194,6 +205,8 @@ class Admin extends CI_Controller {
 			$this->form_validation->set_rules("slug", "Slug", "required");
 			$this->form_validation->set_rules("live_smil", "Live SMIL", "required");
 			$this->form_validation->set_rules("archive_smil", "Archive SMIL", "required");
+			$this->form_validation->set_rules("live_smil_mobile", "Live SMIL (Mobile)", "required");
+			$this->form_validation->set_rules("archive_smil_mobile", "Archive SMIL (Mobile)", "required");
 			$this->form_validation->set_rules("description", "Description", "required");
 			$this->form_validation->set_rules("start_date", "Start Date", "required");
 			$this->form_validation->set_rules("end_date", "End Date", "required");
@@ -212,6 +225,8 @@ class Admin extends CI_Controller {
 					"available_until" => $until,
 					"live_smil" => $post_data["live_smil"],
 					"archive_smil" => $post_data["archive_smil"],
+					"live_smil_mobile" => $post_data["live_smil_mobile"],
+					"archive_smil_mobile" => $post_data["archive_smil_mobile"],
 					"description" => $post_data["description"],
 					"title" => $post_data["title"],
 					"slug" => $post_data["slug"],
@@ -259,6 +274,8 @@ class Admin extends CI_Controller {
 				$this->form_validation->set_rules("slug", "Slug", "required");
 				$this->form_validation->set_rules("live_smil", "Live SMIL", "required");
 				$this->form_validation->set_rules("archive_smil", "Archive SMIL", "required");
+				$this->form_validation->set_rules("live_smil_mobile", "Live SMIL (Mobile)", "required");
+				$this->form_validation->set_rules("archive_smil_mobile", "Archive SMIL (Mobile)", "required");
 				$this->form_validation->set_rules("description", "Description", "required");
 				$this->form_validation->set_rules("start_date", "Start Date", "required");
 				$this->form_validation->set_rules("end_date", "End Date", "required");
@@ -277,6 +294,8 @@ class Admin extends CI_Controller {
 						"available_until" => $until,
 						"live_smil" => $post_data["live_smil"],
 						"archive_smil" => $post_data["archive_smil"],
+						"live_smil_mobile" => $post_data["live_smil_mobile"],
+						"archive_smil_mobile" => $post_data["archive_smil_mobile"],
 						"description" => $post_data["description"],
 						"title" => $post_data["title"],
 						"slug" => $post_data["slug"]

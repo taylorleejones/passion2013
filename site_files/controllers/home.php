@@ -1,24 +1,11 @@
-<?php
+<?php if(!defined('BASEPATH')) exit(file_get_contents("404.php"));
 
 class Home extends CI_Controller {
 
 	public function __construct() {
 
 		parent::__construct();
-/*
-		$redirect = false;
-		$get = $this->input->get();
-		if(!$get) $get = array();
-		if(array_key_exists("i", $get)) {
-			if($get["i"] != md5($_SERVER["HTTP_USER_AGENT"]))
-				$redirect = true;
-		} else {
-			$redirect = true;
-		}
 
-		if($redirect)
-			redirect(current_url()."?i=".md5($_SERVER["HTTP_USER_AGENT"]));
-*/
 	}
 
 	public function index() {
@@ -28,10 +15,7 @@ class Home extends CI_Controller {
 		$this->load->model("Sessions");
 		$live = $this->Sessions->get_live_session();
 
-		if(isset($live))
-			$data["current"] = $live;
-		else
-			$data["current"] = false;
+		$data["live"] = (isset($live)) ? $live : false;
 		$data["page_title"] = "Passion '13";
 
 		$this->load->view("header", $data);

@@ -7,14 +7,21 @@
 				<div id="bg_player_location">
 					<div id="my-video"></div>
 <?php
-if($session_data->visible == 2)
+if($session_data->visible == 2) {
 	$smil_path = $session_data->live_smil;
-elseif($session_data->visible == 3)
+	$mobile_smil_path = $session_data->live_smil_mobile;
+} elseif($session_data->visible == 3) {
 	$smil_path = $session_data->archive_smil;
+	$mobile_smil_path = $session_data->archive_smil_mobile;
+}
 ?>
 <script type='text/javascript'>
 	jwplayer('my-video').setup({
-		file: '<?= base_url().$smil_path ?>',
+		sources: [{
+			file: '<?= base_url().$smil_path ?>',
+		},{
+			file: '<?= $mobile_smil_path ?>'
+		}],
 		width: '640',
 		height: '380',
 		autostart: true

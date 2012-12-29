@@ -1,4 +1,4 @@
-<?php
+<?php if(!defined('BASEPATH')) exit(file_get_contents("404.php"));
 
 class Sessions extends CI_Model {
 
@@ -19,8 +19,8 @@ class Sessions extends CI_Model {
 	function create($data = array()) {
 		if(!empty($data)) {
 			extract($data, EXTR_OVERWRITE);
-			if(!$this->db->query("INSERT INTO {$this->db_table}(start_time,end_time,available_until,live_smil,archive_smil,description,title,slug,create_time,visible,image)
-										VALUES('$start_time','$end_time','$available_until','$live_smil','$archive_smil','$description','$title','$slug','$create_time','$visible','$image')")) {
+			if(!$this->db->query("INSERT INTO {$this->db_table}(start_time,end_time,available_until,live_smil,archive_smil,live_smil_mobile,archive_smil_mobile,description,title,slug,create_time,visible,image)
+										VALUES('$start_time','$end_time','$available_until','$live_smil','$archive_smil','$live_smil_mobile','$archive_smil_mobile','$description','$title','$slug','$create_time','$visible','$image')")) {
 				$err = "Database error";
 			}
 		} else {
@@ -121,7 +121,7 @@ class Sessions extends CI_Model {
 	function update($id = false, $data = array()) {
 		if(!empty($data) && $id) {
 			extract($data, EXTR_OVERWRITE);
-			if(!$this->db->query("UPDATE {$this->db_table} SET title='{$title}', description='{$description}', live_smil='{$live_smil}', archive_smil='{$archive_smil}', slug='{$slug}', start_time='{$start_time}', end_time='{$end_time}', available_until='{$available_until}' WHERE id={$id} LIMIT 1")) {
+			if(!$this->db->query("UPDATE {$this->db_table} SET title='{$title}', description='{$description}', live_smil='{$live_smil}', archive_smil='{$archive_smil}', live_smil_mobile='{$live_smil_mobile}', archive_smil_mobile='{$archive_smil_mobile}', slug='{$slug}', start_time='{$start_time}', end_time='{$end_time}', available_until='{$available_until}' WHERE id={$id} LIMIT 1")) {
 				$err = "Database error";
 			}
 		} else {
