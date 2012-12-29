@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['hostname'] = 'aa1ss0xic6k3e3z.cp5ot6vumfcw.us-east-1.rds.amazonaws.com:3306';
+$db['default']['username'] = 'passionlive';
+$db['default']['password'] = '1udp31996SN95n';
+$db['default']['database'] = 'ebdb';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
