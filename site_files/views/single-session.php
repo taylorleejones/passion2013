@@ -19,8 +19,6 @@ if($session_data->visible == 2) {
 	jwplayer('my-video').setup({
 		sources: [{
 			file: '<?= base_url().$smil_path ?>',
-		},{
-			file: '<?= $mobile_smil_path ?>'
 		}],
 		width: '640',
 		height: '380',
