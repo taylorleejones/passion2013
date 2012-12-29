@@ -1,3 +1,1 @@
-<?php
-echo "<html><body><p>Application alive!</p></body></html>";
-?>
+<?php echo "Application alive!"; ?>
