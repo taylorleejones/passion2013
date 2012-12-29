@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://wb-passion-test-env.elasticbeanstalk.com';
+$config['base_url']	= '';
 
 /*
 |--------------------------------------------------------------------------
