@@ -27,19 +27,6 @@
  * @link		http://codeigniter.com/user_guide/
  */
 
-/* Force home page on first visit */
-$base_url_for_force = "/";
-$admin_directory = "/admin"; // to exlude from force
-
-if(!strstr($_SERVER["REQUEST_URI"], $admin_directory)) {
-	if(!isset($_COOKIE["visited"])) {
-		setcookie("visited", "1", time()+60*60*24*7); // expire in 7 days
-		header("Location: ".$base_url_for_force);
-		exit;
-	}
-}
-/* End force home page */
-
 /**
  * CodeIgniter Version
  *
