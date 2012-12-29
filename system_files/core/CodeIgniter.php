@@ -28,7 +28,7 @@
  */
 
 /* Force home page on first visit */
-$base_url_for_force = "http://passionlive.whiteboardnetwork.com/";
+$base_url_for_force = "/";
 $admin_directory = "/admin"; // to exlude from force
 
 if(!strstr($_SERVER["REQUEST_URI"], $admin_directory)) {

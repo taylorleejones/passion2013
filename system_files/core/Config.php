@@ -75,7 +75,7 @@ class CI_Config {
 
 			else
 			{
-				$base_url = 'http://passionlive.whiteboardnetwork.com';
+				$base_url = '/';
 			}
 
 			$this->set_item('base_url', $base_url);
