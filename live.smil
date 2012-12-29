@@ -1,23 +1,14 @@
-<?xml version="1.0"?>
-<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.0//EN" "http://www.w3.org/2001/SMIL20/SMIL20.dtd">
-<smil xmlns="http://www.w3.org/2001/SMIL20/Language">
-	<head>
-		<meta name="title" content="Dark Knight" />
-    	<meta name="httpBase" content="http://tceast-f.hdflash.edgesuite.net/"/>
-    	<meta name="vod" content="true"/>
-	</head>
-	<body>
-
-		<switch id="Dark Knight">
-			<video src="will/robin_hood_25fps_300.f4v" system-bitrate="300000"/>
-			<video src="will/robin_hood_25fps_600.f4v" system-bitrate="600000"/>
-			<video src="will/robin_hood_25fps_1200.f4v" system-bitrate="1200000"/>
-			<video src="will/robin_hood_25fps_1800.f4v" system-bitrate="1800000"/>
-			<video src="will/robin_hood_25fps_2400.f4v" system-bitrate="2400000"/>
-			<video src="will/robin_hood_25fps_3000.f4v" system-bitrate="3000000"/>
-
-		</switch>
-	</body>
+<smil>
+<head>
+<meta base="rtmp://cp82144.live.edgefcs.net/live" />
+</head>
+<body>
+<switch>
+<video src="passion_1_2200@96481" system-bitrate="2252800"/>
+<video src="passion_1_1500@96481" system-bitrate="1536000"/>
+<video src="passion_1_900@96481" system-bitrate="921600"/>
+<video src="passion_1_700@96481" system-bitrate="716800"/>
+<video src="passion_1_180@96481" system-bitrate="184320"/>
+</switch>
+</body>
 </smil>
-
-
