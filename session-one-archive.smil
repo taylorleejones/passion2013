@@ -1,14 +1,15 @@
 <smil>
 <head>
-<meta base="rtmp://cp82144.live.edgefcs.net/live" />
+<meta name="httpBase" content="http://passion2-vh.akamaihd.net/" />
+<meta name="vod" content="true" />
 </head>
 <body>
 <switch>
-<video src="passion_1_2200@96481" system-bitrate="2252800"/>
-<video src="passion_1_1500@96481" system-bitrate="1536000"/>
-<video src="passion_1_900@96481" system-bitrate="921600"/>
-<video src="passion_1_700@96481" system-bitrate="716800"/>
-<video src="passion_1_180@96481" system-bitrate="184320"/>
+<video src="DVR/passion2013/12/31/test/passion_1_2200.mp4" system-bitrate="2252800"/>
+<video src="DVR/passion2013/12/31/test/passion_1_1500.mp4" system-bitrate="1536000"/>
+<video src="DVR/passion2013/12/31/test/passion_1_900_0000.mp4" system-bitrate="921600"/>
+<video src="DVR/passion2013/12/31/test/passion_1_700_0000.mp4" system-bitrate="716800"/>
+<video src="DVR/passion2013/12/31/test/passion_1_300_0000.mp4" system-bitrate="184320"/>
 </switch>
 </body>
 </smil>
