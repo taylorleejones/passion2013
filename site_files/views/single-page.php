@@ -1,1 +1,0 @@
-<?php echo $page_data->content."<br><br>".date("U"); ?>
