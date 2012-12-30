@@ -48,7 +48,7 @@
 $active_group = 'default';
 $active_record = FALSE;
 
-$db['default']['hostname'] = 'aa1ss0xic6k3e3z.cp5ot6vumfcw.us-east-1.rds.amazonaws.com:3306';
+$db['default']['hostname'] = 'aa18k1hj7y80ls7.c3s9gmdjn5vo.us-east-1.rds.amazonaws.com:3306';
 $db['default']['username'] = 'passionlive';
 $db['default']['password'] = '1udp31996SN95n';
 $db['default']['database'] = 'ebdb';
