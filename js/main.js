@@ -1,4 +1,4 @@
-var fullPath = "http://passionlive.whiteboardnetwork.com/";
+var fullPath = "http://passion-livestream-env.elasticbeanstalk.com";
 //var fullPath = window.location.protocol + "//" + window.location.host + "/";
 
 $(document).ready(function() {
@@ -21,6 +21,8 @@ $("#activate-schedule").on("click", function() {
 (function($){
 
 var pls = {};
+pls.bgimage = $("#bgimage img");
+pls.whRatio = 2.27;
 
 pls.tArray = [ // twitter words array
 	[ // first, users
@@ -138,9 +140,13 @@ function feedbackForm(){
 				f.find("textarea").val("sending...");
 			},
 			success: function(data){
+				console.log(data);
 				if (data == "1"){
 					var message = "Feedback sent succesfully.";
 					f.find("textarea").val("Message sent!");
+				} else if (data == "-1") {
+					var message = "Looks like there was an issue on the server. Try again.";
+					f.find("textarea").val("Message not sent! Probably a server error.");
 				} else {
 					var message = "Feedback wasn't sent correctly - double check the form, or try later.";
 					f.find("textarea").val("Message not sent. Check the form fields, or try again later.");
@@ -156,12 +162,115 @@ function feedbackForm(){
 	});
 }
 
+function formSubmitDiv(){
+	$("form").each(function(){
+		var f = $(this);
+		f.find("div.submit").click(function(){
+			f.submit();
+		});
+	});
+}
+
+function futureClick(){
+	$("a.future").click(function(e){
+		e.preventDefault();
+		if ( $(e.target).attr("id").indexOf($("article.passion_sessions").attr("id")) > 0){
+			return false;
+		} else {
+			var formhtml = '<form id="_go-to-session" action=" ' +
+			$(this).attr("href") +
+			'" method="POST"><input type="hidden" name="from_ad" value="true"></form>';
+			$(formhtml).hide().appendTo("body");
+			$("#_go-to-session").submit();
+		}
+	});
+}
+
+function bgImageResize(){
+	pls.windowRatio = $(window).width() / $(window).height();
+	// if window width/height is greater than bg image width/height,
+	// resize image width to window width
+	if (pls.windowRatio > pls.whRatio){
+		
+		var w = $(window).width();
+		var h = w/pls.whRatio;
+
+		pls.bgimage.css({
+			width : w,
+			height : h,
+			marginTop : 0.5 * ($(window).height() - (w/pls.whRatio)),
+			marginLeft : 0
+		});
+
+	} else if (pls.windowRatio < pls.whRatio){
+		var h = $(window).height();
+		var w = h * pls.whRatio;
+		var mL = 0.5 * ($(window).width() - w);
+		pls.bgimage.css({
+			width : w,
+			height : h,
+			marginLeft : mL,
+			marginTop : 0
+		});
+	}
+}
+
 function init(){
+	// A few utils
+	$("#session-thumbs a").click(function(e){
+		if ($(e.target).attr("id").indexOf($("article.passion_sessions").attr("id")) > 0){
+			e.preventDefault();
+		}
+	});
 	// now other functions
+	bgImageResize();
+	formSubmitDiv();
+	futureClick();
+	if (!pls.twitterKill){
+		fetchTweets();	
+	} else {
+		$("#tweetlist").html("Feed is not available at this time.");
+	}
 	twidget();
 	feedbackForm();
-	fetchTweets();
+	$(window).resize(function(){
+		bgImageResize();
+	});
 }
 init();
+
+})(jQuery);
+
+
+
+(function($){
+	window.pMessage = setInterval(function(){
+        $.getJSON("http://search.twitter.com/search.json?rpp=1&q=from%3Apassionliveteam&callback=?")
+        .success(function(data){
+        	if (!data['results'].length){ return false; }
+            var tweet = data['results'][0]['text'];
+            if (tweet.match("#support")){
+                tweet = tweet.replace("#support", "");
+                if (tweet != $("#session-thumbs p").html()){
+                if ($("#session-thumbs p").length > 0){ $("#session-thumbs p").html(tweet);
+                } else {
+                    $("<p>" + tweet +"</p>").prependTo("#session-thumbs");
+                    $("#session-thumbs p").css({
+                            fontSize : "1em",
+                            color : "#ddd",
+                            textTransform : "uppercase",
+                            marginBottom : "12px"
+                        });
+                    }
+                }
+            } else {
+                if ($("#session-thumbs p") > 0){
+                    $("#session-thumbs p").remove();
+                }
+            }
+    }).error(function(){
+        return false;
+    });
+    }, 12000);
 
 })(jQuery);

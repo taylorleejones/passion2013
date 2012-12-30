@@ -1,4 +1,4 @@
-var fullPath = "http://passionlive.whiteboardnetwork.com/";
+var fullPath = "http://passion-livestream-env.elasticbeanstalk.com";
 //var fullPath = window.location.protocol + "//" + window.location.host + "/";
 
 /*
