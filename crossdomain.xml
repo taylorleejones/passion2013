@@ -1,0 +1,9 @@
+<?xml version="1.0"?> 
+<!-- http://www.osmf.org/crossdomain.xml --> 
+<!DOCTYPE cross-domain-policy SYSTEM "http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd"> 
+<cross-domain-policy>
+	<allow-access-from domain="*.268generation.com"/>
+    <allow-access-from domain="*.whiteboardnetwork.com"/>
+    <allow-access-from domain="passion-livestream-env.elasticbeanstalk.com"/>
+    <allow-access-from domain="*.edgesuite.net"/>
+</cross-domain-policy>

@@ -1,4 +1,4 @@
-var fullPath = "http://passion-livestream-env.elasticbeanstalk.com";
+var fullPath = "http://localhost/passion13/";
 //var fullPath = window.location.protocol + "//" + window.location.host + "/";
 
 $(document).ready(function() {

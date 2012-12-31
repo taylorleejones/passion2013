@@ -1,5 +1,5 @@
 <?php
-	$email_to = "tljdesign@gmail.com";
+	$email_to = "passion2013@268mail.com";
 	$fromname = $_POST["_name"];
     $email_subject = "Feedback Form from $fromname :: Passion Live Stream";
     $from_email = $_POST["_email"];

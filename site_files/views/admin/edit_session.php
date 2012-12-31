@@ -8,8 +8,8 @@
 <div class="field">URL Slug<br><?php echo form_input("slug", set_value("slug", $session->slug), 'id="session-slug"'); ?></div>
 <div class="field">Live SMIL<br><?php echo form_input("live_smil", set_value("live_smil", $session->live_smil)); ?></div>
 <div class="field">Archive SMIL<br><?php echo form_input("archive_smil", set_value("archive_smil", $session->archive_smil)); ?></div>
-<div class="field">Live SMIL (Mobile)<br><?php echo form_input("live_smil_mobile", set_value("live_smil_mobile", $session->live_smil_mobile)); ?></div>
-<div class="field">Archive SMIL (Mobile)<br><?php echo form_input("archive_smil_mobile", set_value("archive_smil_mobile", $session->archive_smil_mobile)); ?></div>
+<div class="field">Live HLS (Playlist URL)<br><?php echo form_input("live_smil_mobile", set_value("live_smil_mobile", $session->live_smil_mobile)); ?></div>
+<div class="field">Archive HLS (Playlist URL)<br><?php echo form_input("archive_smil_mobile", set_value("archive_smil_mobile", $session->archive_smil_mobile)); ?></div>
 <div class="field">Description<br><?php echo form_textarea("description", set_value("description", $session->description)); ?></div>
 <div class="field time-date">
   Start Date <?php echo form_input("start_date", set_value("start_date"), 'id="session-date-start"'); ?>

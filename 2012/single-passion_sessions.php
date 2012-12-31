@@ -39,7 +39,7 @@ get_header(); ?>
 							);
 						?>
 
-						<script type="text/javascript">
+						<!-- <script type="text/javascript">
 						var flashvars = {};
 						flashvars.AutoPlay = "true";
 						flashvars.ScrubMode = "advanced";
@@ -68,7 +68,7 @@ get_header(); ?>
 						var attributes = {};
 						attributes.id = "bitgravity_player_6";
 						swfobject.embedSWF(stablerelease, "bg_player_location", "640", "380", "9.0.115", "http://bitcast-b.bitgravity.com/player/expressInstall.swf", flashvars, params, attributes);
-						</script>
+						</script> -->
 					<?php
 					} else if ($ss == "1") { // Session is set to "Present", show live stream
 						$liveurl = get_post_meta($post->ID, "_stream-url", true);
