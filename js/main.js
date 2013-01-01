@@ -1,6 +1,3 @@
-var fullPath = "http://localhost/passion13/";
-//var fullPath = window.location.protocol + "//" + window.location.host + "/";
-
 $(document).ready(function() {
 
 $("#activate-twitter").on("click", function() {
@@ -26,14 +23,14 @@ pls.whRatio = 2.27;
 
 pls.tArray = [ // twitter words array
 	[ // first, users
-	"@passion268", "@louiegiglio", "@christomlin", "@crowderband", "from:lecrae", "from:johnpiper",
-	"from:hillsongunited", "from:bethmoorelpm", "@matt_redman", "@kpstanfill", "from:charliehallband",
+	"@passion268", "@louiegiglio", "@christomlin", "@crowdermusic", "from:lecrae", "from:johnpiper",
+	"from:jesusculture", "from:karijobe", "from:bethmoorelpm", "@matt_redman", "@kpstanfill", "from:charliehallband",
 	"from:christynockels"
 
 	],
 	[ // now keywords
-	'#passion2012', '#headedtothedome', '268generation', 'passion2012', 'headedtothedome',
-	'"Passion 2012"', '"Passion in Atlanta"', '"Passion Conference"', '"Passion in Atl"', '"Atlanta for Passion"'
+	'#passion2013', '#headedtothedome', '268generation', 'passion2013', 'headedtothedome',
+	'"Passion 2013"', '"Passion in Atlanta"', '"Passion Conference"', '"Passion in Atl"', '"Atlanta for Passion"'
 	]
 ]
 pls.rUrl = "";
@@ -245,7 +242,7 @@ init();
 
 (function($){
 	window.pMessage = setInterval(function(){
-        $.getJSON("http://search.twitter.com/search.json?rpp=1&q=from%3Apassionliveteam&callback=?")
+        $.getJSON("http://search.twitter.com/search.json?rpp=1&q=from%3Apassion2013live&callback=?")
         .success(function(data){
         	if (!data['results'].length){ return false; }
             var tweet = data['results'][0]['text'];
