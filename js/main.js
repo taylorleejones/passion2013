@@ -250,7 +250,7 @@ init();
                 if (tweet != $("#session-thumbs p").html()){
                 if ($("#session-thumbs p").length > 0){ $("#session-thumbs p").html(tweet);
                 } else {
-                    $("<p>" + tweet +"</p>").prependTo("#session-thumbs");
+                    $("<p class='alert'>" + tweet +"</p>").prependTo("#session-thumbs");
                     $("#session-thumbs p").css({
                             fontSize : "1em",
                             color : "#ddd",

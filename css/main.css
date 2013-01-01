@@ -757,6 +757,19 @@ ul.nav_column ul li a:hover {
     background:url(/img/dot-pattern.png) repeat center;
 }
 
+.alert {
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    background-color: yellow;
+    padding: 10px;
+    margin-right: 12px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
 /* ================== end AM styles */
 
 #bgimage {
