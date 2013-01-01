@@ -10,7 +10,7 @@
 					 	<a class="thumb" onClick="javascript: pageTracker._trackPageview('digitalAAccess');" target="_blank" href="http://store.passion2013.com/daa/dp/3">Buy<br/>Digital<br/>All Access</a>
 					 	<div id="feedback">
 						<form id="feedback_form" action="<?php /*bloginfo('template_directory');*/ ?>/sendfeedback.php" method="POST">
-							<textarea name="_message">Do you have an interesting story to share? Having technical problems? Tell us here.</textarea>
+							<textarea name="_message">Do you have an interesting story to share? Having technical problems? Click here to type your message.</textarea>
 							<div class="floatright">
 								<input type="text" name="_name" value="name" id="name"><br/>
 								<input type="text" name="_email" value="email" id="email"><br/>

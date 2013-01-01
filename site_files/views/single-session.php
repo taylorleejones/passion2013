@@ -29,7 +29,23 @@ if($session_data->visible == 2) {
 	$mobile_smil_path = $session_data->archive_smil_mobile;
 ?>
 <script type='text/javascript'>
-	jwplayer('my-video').setup({
+var userAgent = window.navigator.userAgent;
+
+if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/Android/i)) {
+   // iPad or iPhone or Android
+   jwplayer('my-video').setup({
+		sources: [{
+			file: '<?= $mobile_smil_path ?>'
+		}],
+		width: '640',
+		height: '380',
+		primary: 'flash',
+		autostart: true
+	});
+}
+else {
+	// anything else
+   	jwplayer('my-video').setup({
 		playlist: [{
 			provider: 'http://players.edgesuite.net/flash/plugins/jw/v2.11/jw6/AkamaiAdvancedJWStreamProvider.swf',
 			file: '<?= base_url().$smil_path ?>',
@@ -40,6 +56,8 @@ if($session_data->visible == 2) {
 		primary: 'flash',
 		autostart: true
 	});
+}
+
 </script>
 <?php } ?>
 					</div>	 
@@ -55,7 +73,7 @@ if($session_data->visible == 2) {
 					 	<a class="thumb" onClick="javascript: pageTracker._trackPageview('digitalAAccess');" target="_blank" href="http://store.passion2013.com/daa/dp/3">Buy<br/>Digital<br/>All Access</a>
 					 	<div id="feedback">
 						<form id="feedback_form" action="/sendfeedback.php" method="POST">
-							<textarea name="_message">Do you have an interesting story to share? Having technical problems? Tell us here.</textarea>
+							<textarea name="_message">Do you have an interesting story to share? Having technical problems? Click here to type your message.</textarea>
 							<div class="floatright">
 								<input type="text" name="_name" value="name" id="name"><br/>
 								<input type="text" name="_email" value="email" id="email"><br/>
