@@ -1,8 +1,8 @@
-<?php if($live) { ?>
+<?php /* if($live) { ?>
 <script type="text/javascript">
 document.location = "<?= base_url('session/'.$live) ?>";
 </script>
-<?php } ?>
+<?php } */ ?>
 
 <article>
 <div id="bg_player_location">
@@ -21,7 +21,10 @@ document.location = "<?= base_url('session/'.$live) ?>";
 </article>
 
 <div id="right-bar">
-<?php /* <a class="thumb" href="<?= base_url("session/".$current) ?>">Watch<br><span class="yellow">Live</span> Session</a> */ ?>
+<?php if($live) { ?>
+<a class="thumb" href="<?= base_url("session/".$live) ?>">Watch<br><span class="yellow">Live</span> Session</a>
+<?php } else { ?>
 <a class="thumb" href="<?= base_url("all-sessions") ?>">Watch<br/>Past Sessions</a>
-<a class="thumb" onClick="javascript: pageTracker._trackPageview('givetofreedm');" target="_blank"href="http://giving.passion2013.com">Give<br>To Freedom</a>
+<?php } ?>
+<a class="thumb" onClick="javascript: pageTracker._trackPageview('givetofreedm');" target="_blank"href="https://secure.268generation.com/dosomethingnow/give/freedom">Give<br>To Freedom</a>
 </div>
