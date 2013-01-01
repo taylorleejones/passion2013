@@ -71,7 +71,7 @@ get_header(); ?>
 					<?php } else {?>
 						<a class="thumb" href="/all-sessions">Watch<br/>Past Sessions</a>	
 					<?php } ?>
-					<a class="thumb" onClick="javascript: pageTracker._trackPageview('givetofreedm');" target="_blank"href="https://secure.268generation.com/dosomethingnow/give/freedom">Give<br>To Freedom</a>
+					<a class="thumb" onClick="javascript: pageTracker._trackPageview('givetofreedm');" target="_blank"href="http://giving.passion2013.com">Give<br>To Freedom</a>
 				</div><!-- ending #right-bar -->
 
 	<?php wp_reset_query();?>

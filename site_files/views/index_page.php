@@ -25,5 +25,5 @@ document.location = "<?= base_url('session/'.$live) ?>";
 <div id="right-bar">
 <?php /* <a class="thumb" href="<?= base_url("session/".$current) ?>">Watch<br><span class="yellow">Live</span> Session</a> */ ?>
 <a class="thumb" href="<?= base_url("all-sessions") ?>">Watch<br/>Past Sessions</a>
-<a class="thumb" onClick="javascript: pageTracker._trackPageview('givetofreedm');" target="_blank"href="https://secure.268generation.com/dosomethingnow/give/freedom">Give<br>To Freedom</a>
+<a class="thumb" onClick="javascript: pageTracker._trackPageview('givetofreedm');" target="_blank"href="http://giving.passion2013.com">Give<br>To Freedom</a>
 </div>

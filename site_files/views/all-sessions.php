@@ -6,7 +6,7 @@
 					</aside>
 
 					<div id="right-bar">
-					 	<a class="thumb" onClick="javascript: pageTracker._trackPageview('givetofreedm');" target="_blank" href="https://secure.268generation.com/dosomethingnow/give/freedom">Give<br>to Freedom</a>
+					 	<a class="thumb" onClick="javascript: pageTracker._trackPageview('givetofreedm');" target="_blank" href="http://giving.passion2013.com">Give<br>to Freedom</a>
 					 	<a class="thumb" onClick="javascript: pageTracker._trackPageview('digitalAAccess');" target="_blank" href="http://store.passion2013.com/daa/dp/3">Buy<br/>Digital<br/>All Access</a>
 					 	<div id="feedback">
 						<form id="feedback_form" action="<?php /*bloginfo('template_directory');*/ ?>/sendfeedback.php" method="POST">
