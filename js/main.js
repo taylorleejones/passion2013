@@ -1,6 +1,3 @@
-var fullPath = "http://localhost/passion13/";
-//var fullPath = window.location.protocol + "//" + window.location.host + "/";
-
 $(document).ready(function() {
 
 $("#activate-twitter").on("click", function() {
@@ -27,7 +24,7 @@ pls.whRatio = 2.27;
 pls.tArray = [ // twitter words array
 	[ // first, users
 	"@passion268", "@louiegiglio", "@christomlin", "@crowderband", "from:lecrae", "from:johnpiper",
-	"from:hillsongunited", "from:bethmoorelpm", "@matt_redman", "@kpstanfill", "from:charliehallband",
+	"from:jesusculture","from:karijobe", "from:bethmoorelpm", "@matt_redman", "@kpstanfill", "from:charliehallband",
 	"from:christynockels"
 
 	],
