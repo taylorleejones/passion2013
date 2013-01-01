@@ -251,13 +251,6 @@ init();
                 if ($("#session-thumbs p").length > 0){ $("#session-thumbs p").html(tweet);
                 } else {
                     $("<p class='alert'>" + tweet +"</p>").prependTo("#session-thumbs");
-                    $("#session-thumbs p").css({
-                            fontSize : "1em",
-                            color : "#ddd",
-                            textTransform : "uppercase",
-                            marginBottom : "12px"
-                        });
-                    }
                 }
             } else {
                 if ($("#session-thumbs p") > 0){
