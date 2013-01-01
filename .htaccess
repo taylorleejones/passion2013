@@ -1,7 +1,7 @@
 #RewriteEngine On
 #RewriteCond %{REQUEST_FILENAME} !-f
 #RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteRule ^(.*)$ home.php/$1 [L]
+#RewriteRule ^(.*)$ index.php/$1 [L]
 
 DirectoryIndex index.html
 
@@ -11,4 +11,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond $1 !^(home\.php|robots\.txt)
 
-RewriteRule ^(.*)$ home.php?/$1 [L]
+RewriteRule ^(.*)$ index.php?/$1 [L]

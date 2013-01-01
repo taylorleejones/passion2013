@@ -99,7 +99,7 @@ class Pages extends CI_Controller {
 
 <h2>Adding logic to the controller</h2>
 
-<p>Now we've set up the basics so we can finally do some real programming. Earlier we set up our controller with a view method. Because we don't want to write a separate method for every page, we made the view method accept one parameter, the name of the page. These hard coded pages will be located in <dfn>application/views/pages/</dfn>. Create two files in this directory named <dfn>home.php</dfn> and <dfn>about.php</dfn> and put in some HTML content.</p>
+<p>Now we've set up the basics so we can finally do some real programming. Earlier we set up our controller with a view method. Because we don't want to write a separate method for every page, we made the view method accept one parameter, the name of the page. These hard coded pages will be located in <dfn>application/views/pages/</dfn>. Create two files in this directory named <dfn>index.php</dfn> and <dfn>about.php</dfn> and put in some HTML content.</p>
 
 <p>In order to load these pages we'll have to check whether these page actually exists. When the page does exist, we load the view for that pages, including the header and footer and display it to the user. If it doesn't, we show a "404 Page not found" error.</p>
 

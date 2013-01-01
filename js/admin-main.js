@@ -1,4 +1,4 @@
-var fullPath = "http://passion2013.whiteboardnetwork.com/";
+var fullPath = "http://live.268generation.com/";
 //var fullPath = window.location.protocol + "//" + window.location.host + "/";
 
 /*
