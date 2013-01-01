@@ -39,7 +39,7 @@ function fetchTweets(update, refreshurl){ // this function will run on the clien
 	// build url; has to be dynamic so that the "since_id" parameter can be updated.
 	var url = (function(){
 		if (!update){
-			var u = "http://search.twitter.com/search.json?rpp=5&result_type=recent&q=";
+			var u = "http://search.twitter.com/search.json?rpp=5&result_type=recent&q=terms%20-RT";
 			var terms = pls.tArray[0].join(" OR ");
 			terms += " OR " + pls.tArray[1].join(" OR ");
 			u += encodeURIComponent(terms);
