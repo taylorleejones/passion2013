@@ -1,0 +1,15 @@
+<smil>
+<head>
+<meta name="httpBase" content="http://passion2-vh.akamaihd.net/" />
+<meta name="vod" content="true" />
+</head>
+<body>
+<switch>
+<video src="DVR/passion2013/01/02/730/passion_1_2200.mp4" system-bitrate="2252800"/>
+<video src="DVR/passion2013/01/02/730/passion_1_1500.mp4" system-bitrate="1536000"/>
+<video src="DVR/passion2013/01/02/730/passion_1_900.mp4" system-bitrate="921600"/>
+<video src="DVR/passion2013/01/02/730/passion_1_700.mp4" system-bitrate="716800"/>
+<video src="DVR/passion2013/01/02/730/passion_1_300.mp4" system-bitrate="184320"/>
+</switch>
+</body>
+</smil>
