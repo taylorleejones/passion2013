@@ -16,7 +16,7 @@ class Home extends CI_Controller {
 		$live = $this->Sessions->get_live_session();
 
 		$data["live"] = (isset($live)) ? $live : false;
-		$data["page_title"] = "Passion '13";
+		$data["page_title"] = "Passion 2013 :: Live Stream";
 
 		$this->load->view("header", $data);
 		$this->load->view("index_page", $data);
