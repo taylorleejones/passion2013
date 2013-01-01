@@ -9,11 +9,14 @@ document.location = "<?= base_url('session/'.$live) ?>";
   <div id="my-video"></div>
 	<script type='text/javascript'>
 		jwplayer('my-video').setup({
-			sources: [{
+			playlist: [{
+				provider: 'http://players.edgesuite.net/flash/plugins/jw/v2.11/jw6/AkamaiAdvancedJWStreamProvider.swf',
 				file: 'http://passion2-vh.akamaihd.net/DVR/passion2013/mp4/LGIntro.mp4',
+				type : 'mp4'
 			}],
 			width: '640',
 			height: '380',
+			primary: 'flash',
 			autostart: true
 		});
 	</script>
